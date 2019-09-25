@@ -1,0 +1,10 @@
+{
+  "id": "srvcChefJira",
+  "password": {
+    "encrypted_data": "bCC2uLI4hsBAUoh/jOsjZvyJnE7QoCRls/h57F5hB8M=\n",
+	"iv": "eeD0zbXaPlasQ0mw\n",
+	"auth_tag": "i+6Fs2Y/RPsCoR304zTz6A==\n",
+	"version": 3,
+	"cipher": "aes-256-gcm"
+	}
+}

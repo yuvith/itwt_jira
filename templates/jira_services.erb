@@ -1,0 +1,14 @@
+[Unit] 
+Description=Atlassian Jira
+After=network.target
+
+[Service] 
+Type=forking
+LimitNOFILE=65536
+ExecStart=<%= @node['itwt_jira']['home'] %>/bin/start-jira.sh
+ExecStop=<%= @node['itwt_jira']['home'] %>/bin/stop-jira.sh
+User=jira
+Restart=on-abort
+
+[Install] 
+WantedBy=multi-user.target

@@ -1,4 +1,4 @@
-# jira
+itwt_jira
 
-TODO: Enter the cookbook description here.
+Performs installation of Jira appication.
 
